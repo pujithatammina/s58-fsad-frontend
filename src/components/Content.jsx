@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Footer () {
+function Content() {
   return (
-    <div>
-        <h2>This is content</h2>
+    <div className='content'>
+      <h2>My Content</h2>
     </div>
   )
 }
