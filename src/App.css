@@ -17,7 +17,15 @@
   display: flex;
   align-items: center; 
 }
-
+.header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2vw;
+  margin-left: 2vw;
+}
+.header mobilemenu {
+  display: none;
+}
 .header h3 {
   font-size: 20px;
   margin-left: 2vw;
